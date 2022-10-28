@@ -16,6 +16,10 @@ body{
     z-index: 2;
 }
 
+.hover-effect:hover{
+    filter: brightness(150%);
+}
+
                                                         /* header */
 
 header{
@@ -123,7 +127,7 @@ footer{
     display: flex;
     justify-content: space-around;
     gap:10px;
-    width:50%
+    width:50%;
 }
 
 .light-green{
@@ -132,6 +136,7 @@ footer{
 
 .user-action, .mic-and-video{
     margin: 10px 0;
+    flex-wrap: wrap;
 }
 
 .quit-button{
