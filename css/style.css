@@ -7,6 +7,7 @@
 
 body{
     background-color: #000000;
+    height:100vh;
 }
 
                                                         /* header */
@@ -31,9 +32,41 @@ header{
     padding:5px;
     color:white;
 }
-.rounded-bg-grey > span{
-    font-size: 14px;
+.font-small{
+    font-size: 12px;
 }
 
 /* main */
 
+main{
+    margin-top:50px;
+}
+
+.container{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.profile-img{
+    background-image: url(https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA);
+    width: calc(536px / 3);
+    height: calc(354px / 3);
+    background-size: cover;
+    margin:5px 2px;
+    position: relative;
+}
+
+.absolute-left-bottom{
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+
+.bg-grey-transparent{
+    background-color: rgba(50, 50, 50, 0.5);
+    color:white;
+    padding: 5px;
+}
