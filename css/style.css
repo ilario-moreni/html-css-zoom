@@ -10,6 +10,12 @@ body{
     height:100vh;
 }
 
+.fixed{
+    position: fixed;
+    width:100vw;
+    z-index: 2;
+}
+
                                                         /* header */
 
 header{
@@ -17,6 +23,8 @@ header{
     justify-content: flex-end;
     background-color: transparent;
     margin: 5px;
+    top:0;
+    padding-right:20px;
 }
 
 .right-side{
@@ -36,17 +44,20 @@ header{
     font-size: 12px;
 }
 
-/* main */
+                                                            /* main */
 
 main{
-    margin-top:50px;
+    padding-top:50px;
+    padding-bottom: 30px;
 }
 
-.container{
+.main-container{
     width: 90vw;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 70px;
 }
 
 
@@ -69,4 +80,74 @@ main{
     background-color: rgba(50, 50, 50, 0.5);
     color:white;
     padding: 5px;
+}
+
+
+                                                            /* footer */
+
+footer{
+    bottom:0;
+    background-color: #222222;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+
+.mic-and-video{
+    display: flex;
+    width:10%;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.mic, .cam{
+    margin: 0 5px;
+}
+
+.footer-icon{
+    padding: 10px;
+    font-size:20px;
+}
+
+.arrowhead-up{
+    display: flex;
+    align-items: center;
+}
+
+.user-action{
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+    width:50%
+}
+
+.light-green{
+    color:#4BC800;
+}
+
+.user-action, .mic-and-video{
+    margin: 10px 0;
+}
+
+.quit-button{
+    background-color: #4A4A4A;
+    padding-right: 10px;
+    position: relative;
+    width:15%;
+}
+
+.red{
+    color:red;
+}
+
+.center-x-y{
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }

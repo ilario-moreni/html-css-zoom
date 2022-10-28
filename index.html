@@ -9,7 +9,7 @@
         <title>Zoom</title>
     </head>
     <body>
-        <header>
+        <header class="fixed">
             <div class="right-side">
                 <div class="rounded-bg-grey">
                     <i class="fa-solid fa-table-cells"></i>
@@ -21,7 +21,7 @@
             </div>
         </header>
         <main>
-            <div class="container">
+            <div class="main-container">
                 <div class="profile-img profile-name">
                     <div class="absolute-left-bottom bg-grey-transparent font-small">
                         <i class="fa-solid fa-microphone-slash"></i>
@@ -234,5 +234,64 @@
                 </div>
             </div>
         </main>
+        <footer class="fixed">
+            <div class="footer-container">
+                <div class="mic-and-video text-center font-small">
+                    <div class="mic">
+                        <i class="fa-solid fa-microphone footer-icon"></i>
+                        <p>Mute</p>
+                    </div>
+
+                    <div class="arrowhead-up">&#8963;</div>
+                        
+                    <div class="cam">
+                        <i class="fa-solid fa-video footer-icon"></i>
+                        <p>Stop Video</p>
+                    </div>
+
+                    <div class="arrowhead-up">&#8963;</div>    
+                </div>
+                <div class="user-action">
+                    <div class="invite  font-small text-center">
+                        <i class="fa-solid fa-user-plus footer-icon"></i>
+                        <p>Invite</p>
+                    </div>
+                    <div class="manage font-small text-center">
+                        <i class="fa-solid fa-user-group footer-icon"></i>
+                        <p>Manage Partecipants</p>
+                    </div>
+                    <div class="polling font-small text-center">
+                        <i class="fa-solid fa-chart-column footer-icon"></i>
+                        <p>Polling</p>
+                    </div>
+                    <div class="more font-small text-center">
+                        <i class="fa-solid fa-share-from-square footer-icon light-green"></i>
+                        <p>Share Screen</p>
+                    </div>
+
+                    <div class="arrowhead-up">&#8963;</div>
+
+                    <div class="chat font-small text-center">
+                        <i class="fa-solid fa-comment footer-icon"></i>
+                        <p>Chat</p>
+                    </div>
+                    <div class="record font-small text-center">
+                        <i class="fa-solid fa-record-vinyl footer-icon"></i>
+                        <p>Record</p>
+                    </div>
+                    <div class="rooms font-small text-center">
+                        <i class="fa-solid fa-table-cells-large footer-icon"></i>
+                        <p>Breakout Rooms</p>
+                    </div>
+                    <div class="more font-small text-center">
+                        <i class="fa-solid fa-ellipsis footer-icon"></i>
+                        <p>More</p>
+                    </div>
+                </div>
+                <div class="quit-button">
+                    <p class="red font-small center-x-y">End meeting</p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
